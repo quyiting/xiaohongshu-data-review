@@ -89,3 +89,7 @@ node scripts/xhs.mjs fans      # 粉丝总数、净增、性别/年龄/兴趣画
 - 依赖 Chrome 的远程调试开关，Chrome 完全退出后可能需要重新打开
 - 站内接口有签名，脚本读的是渲染后的 DOM，平台改版可能需要更新选择器
 - Chrome 低于 144 没有该开关，需要另起一个独立 profile（见 troubleshooting）
+
+## 协议
+
+[MIT](LICENSE)
